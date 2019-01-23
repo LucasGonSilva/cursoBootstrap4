@@ -251,7 +251,36 @@
           </div>
           <div id="forms-com-grid-conteudo" class="collapse" role="tabpanel">
             <div class="card-block">
-              <p>Outro Conteudo</p>
+              <div class="form-group row">
+                <label for="txt-nome" class="col-form-label col-md-1 col-sm-12">Nome:</label>
+                <div class="col-md-5 col-sm-12">
+                  <input type="text" class="form-control" placeholder="Insira seu nome" name="" value="" id="txt-nome">
+                </div>
+                <label for="txt-sobrenome" class="col-form-label col-md-1 col-sm-12">Sobrenome</label>
+                <div class="col-md-5 col-sm-12">
+                  <input type="text" class="form-control" placeholder="Insira seu sobrenome" name="" value="" id="txt-sobrenome">
+                </div>
+              </div>
+              <fieldset class="form-group row">
+                <legend>Selecione a forma de tratamento</legend>
+                <div class="col-md-6 col-sm-12">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-1" value=""> Senhor
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-2" value=""> Senhora
+                    </label>
+                  </div>
+                  <div class="form-check disabled">
+                    <label class="form-check-label">
+                      <input type="radio" class="form-check-input" name="formas-tratamento" id="forma-tratamento-3" value="" disabled> Senhorita
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
             </div>
           </div>
         </div>
