@@ -1,0 +1,4 @@
+Atom-beatiful
+
+ctrl + alt + b = identação do código
+

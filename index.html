@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <title>Curso de Bootstrap 4 do TreinaWeb</title>
+  <style>
+    .text-centered{
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!--*** Barra de navegação ***-->
+  <nav class="navbar bg-inverse navbar-dark">
+    <a href="#" class="navbar-brand">
+      <img src="assets/img/facebook-logo.png" style="width: 30px; height: auto" class="d-inline-block align-top"> TreinaWeb
+    </a>
+    <button class="navbar-toggler hidden-md-up float-sm-right float-xs-right" type="button" data-toggle="collapse" data-target="#menu-sanduiche"></button>
+    <div class="collapse navbar-toggleable-sm" id="menu-sanduiche">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Segundo Menu</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Arquivo</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Primeira sub-opção</a>
+            <a href="#" class="dropdown-item">Segunda sub-opção</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline float-md-right float-sm-left float-xs-left">
+        <input type="text" class="form-control" placeholder="Digite a pesquisa..." />
+        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </nav>
+  <!--*** FIM - Barra de navegação ***-->
+  <div class="container">
+    <!-- *** Jumbotron *** -->
+    <div class="jumbotron">
+      <h1 class="display-3">Curso de Bootstrap - TreinaWeb</h1>
+      <p class="lead">Esta página é a 2ª parte do curso de Bootstrap da TreinaWeb</p>
+      <hr class="my-2">
+      <p>Este é um outro parágrafo</p>
+      <a href="#" class="btn btn-primary btn-lg">Clique aqui</a>
+    </div>
+    <!-- *** FIM - Jumbotron *** -->
+    <!-- *** Imagens *** -->
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+        <img src="assets/img/apple-1.jpg" class="img-fluid img-thumbnail">
+        <p class="lead">Texto 1</p>
+        <p>Descrição do texto 1</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+        <img src="assets/img/keyboard.jpg" class="img-fluid img-thumbnail">
+        <p class="lead">Texto 2</p>
+        <p>Descrição do texto 2</p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12 text-centered">
+        <img src="assets/img/mouse.jpg" class="img-fluid img-thumbnail">
+        <p class="lead">Texto 3</p>
+        <p>Descrição do texto 3</p>
+      </div>
+    </div>
+    <!-- *** FIM - Imagsens *** -->
+    <!-- *** Cards *** -->
+    <div class="jumbotron text-centered">
+      <div class="row">
+        <h2>Depoimentos</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center">
+            <div class="card-block">
+              <h4 class="card-title">Depoimento 1</h4>
+              <h6 class="card-subtitle">Foi legal!</h6>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Foi muito legal porque eu gostei demais. Parabéns!</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center card-inverse card-info">
+            <div class="card-block">
+              <h4 class="card-title">Depoismento 2</h4>
+              <h6 class="card-subtitle text-muted">Foi legal também!</h6>
+            </div>
+            <div class="card-block">
+              <p class="card-text">Mais uma vez, foi muito legal! Gostei bastante.</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center">
+            <div class="card-block">
+              <h4 class="card-title">Depoimento 3</h4>
+              <h6 class="card-subtitle text-muted">Melhor impossivel!</h6>
+            </div>
+            <img src="assets/img/pessoa-1.jpg" style="width: 80%; height: auto;">
+            <div class="card-block">
+              <p class="card-text">Foi muito legal porque eu gostei demais. Parabéns!</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card text-md-center text-sm-center text-xs-center card-outline-warning">
+            <div class="card-block">
+              <h4 class="card-title">Depoismento 2</h4>
+              <h6 class="card-subtitle text-muted">Foi legal também!</h6>
+            </div>
+            <img src="assets/img/pessoa-1.jpg" style="width: 80%; height: auto;">
+            <div class="card-block">
+              <p class="card-text">Mais uma vez, foi muito legal! Gostei bastante.</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="card card-inverse text-md-center text-sm-center text-xs-center">
+            <img class="card-img-top" src="assets/img/pessoa-1.jpg" style="width: 100%; height: auto">
+            <div class="card-img-overlay">
+              <h4 class="card-title">Depoimento 5</h4>
+              <h6 class="card-text">Depoimento incrivel!</h6>
+            </div>
+            <div class="card-block card-warning">
+              <p class="card-text">Mais uma vez, foi muito legal! Gostei bastante.</p>
+              <a href="#" class="card-link">Link 1</a>
+              <a href="#" class="card-link">Link 2</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *** FIM - Cards *** -->
+    <!-- *** Sanfona *** -->
+    <div class="row">
+      <div id="accordion" class="tablist">
+        <!-- *** Botões *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="botoes-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#botoes-conteudo">Botões</a>
+            </h5>
+          </div>
+          <div id="botoes-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-link">Link</button>
+
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-danger">Danger</button>
+
+              <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+              <button type="button" class="btn btn-danger btn-sm">Small Button</button>
+
+              <button type="button" class="btn btn-primary btn-block">Block 1</button>
+              <button type="button" class="btn btn-danger btn-block">Block 2</button>
+            </div>
+          </div>
+        </div>
+        <!-- *** Forms Básico *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="forms-basico-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#forms-basico-conteudo">Forms Básico</a>
+            </h5>
+          </div>
+          <div id="forms-basico-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <form>
+                <div class="form-group">
+                  <label for="txt-nome">Nome:</label>
+                  <input type="text" id="txt-nome" class="form-control" placeholder="Insira seu nome" name="" value="">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- *** Forms com grid *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="forms-com-grid-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#forms-com-grid-conteudo">Forms com Grid</a>
+            </h5>
+          </div>
+          <div id="forms-com-grid-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <p>Outro Conteudo</p>
+            </div>
+          </div>
+        </div>
+        <!-- *** Forms *** -->
+        <div class="card">
+          <div class="card-header" role="tab" id="forms-horizontal-cabecalho">
+            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#accordion" href="#forms-horizontal-conteudo">Forms Horizontal</a>
+            </h5>
+          </div>
+          <div id="forms-horizontal-conteudo" class="collapse" role="tabpanel">
+            <div class="card-block">
+              <p>Forms Horizontal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- *** FIM - Sanfona *** -->
+  </div>
+  <script src="assets/js/jquery-3.1.0.js"></script>
+  <script src="assets/js/tether.js"></script>
+  <script src="assets/js/bootstrap.js"></script>
+</body>
+
+</html>
